@@ -1,0 +1,150 @@
+.kard{
+    max-width: 23.5%;
+}
+
+
+
+
+.profile-page .profile-header {
+    position: relative
+}
+
+.profile-page .profile-header .profile-image img {
+    border-radius: 50%;
+    max-width: 130px;
+    min-width: 90px;
+    border: 1px solid #fff;
+}
+
+.profile-page .profile-header .social-icon a {
+    margin: 0 5px
+}
+
+.profile-page .profile-sub-header {
+    min-height: 90px;
+    width: 100%
+}
+
+.profile-page .profile-sub-header ul.box-list {
+    display: inline-table;
+    table-layout: fixed;
+    width: 100%;
+    background: #eee
+}
+
+.profile-page .profile-sub-header ul.box-list li {
+    border-right: 1px solid #e0e0e0;
+    display: table-cell;
+
+}
+
+.profile-page .profile-sub-header ul.box-list li:last-child {
+    border-right: none
+}
+
+.profile-page .profile-sub-header ul.box-list li a {
+    display: block;
+    padding: 15px 0;
+    color: #424242
+} 
+
+
+.logo1 {
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+
+}
+
+.logo1 img {
+    width: 100%; /* Rasmning kengligi logoga mos keladi */
+    height: auto; /* Rasmning balandligi mos ravishda o'zgaradi */
+}
+
+.card {
+    transition: background-color 0.3s; /* Rang o'zgarishi uchun animatsiya */
+}
+.card:hover {
+    background-color: #f8f9fa; /* Hover effekti */
+}
+
+.content {
+    flex: 1;
+}
+.rightbar {
+    background-color: #f8f9fa;
+    padding: 20px;
+    height: 100%;
+}
+.vertical-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.vertical-text {
+    writing-mode: vertical-rl; /* Vertikal yozish rejimi */
+    transform: rotate(180deg); /* Yozuvni pastdan tepaga qarab joylashtirish */
+}
+.table, td{
+    border: 1px solid gray;
+}
+
+.hover-div {
+    background-color: #3498db; /* Dastlabki fon rangi */
+    transition: background-color 0.3s; /* O'zgarish uchun animatsiya */
+    
+}
+
+.hover-div:hover {
+    background-color: #fff; /* Kursor ustiga olib borganda fon rangi o'zgaradi */
+    color: #3498db;
+}
+
+
+
+
+.profile-card {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.profile-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center; /* Rasmlar va matnni markazga joylash */
+}
+.profile-img {
+    border-radius: 50%; /* Rasmi doira ko'rinishida */
+    width: 100px; /* O'lcham */
+    height: 100px; /* O'lcham */
+    object-fit: cover; /* Rasmni to'liq qamrab olish */
+    margin-bottom: 15px; /* Rasm va matn o'rtasidagi bo'shliq */
+    
+}
+.achievement-card {
+    background-color: #e9ecef;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+.achievement-card:hover {
+    transform: scale(1.05);
+}
+.header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    border-radius: 15px 15px 0 0;
+    text-align: center;
+}   

@@ -1,0 +1,6 @@
+0) Ctrl+Shift+F
+/fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap
+qidirib
+/*@import url(https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap);*/
+lokallashtirish
+1) mv_admin -> Fanlar sahifasini testlash(avval fak kaf turi sahifasini testlash)
